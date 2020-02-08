@@ -277,7 +277,6 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .home .walk {
