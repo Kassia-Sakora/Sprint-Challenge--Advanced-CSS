@@ -4,7 +4,7 @@
     background-color: @nav-bg;
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    border: 1px solid @nav-border;
     margin: 0 auto;
 }
 
@@ -14,9 +14,10 @@
     align-items: center;
     font-family: 'Russo One';
     margin: 0 auto;
-    padding-bottom: 3%;
-    font-size: 3.2rem;
-
+    padding-bottom: 1%;
+    padding-top: 2%;
+    font-size: 3.5rem;
+    color: @header-font-color;
 }
 
 a {
@@ -26,7 +27,19 @@ a {
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     font-size: 1.6rem;
+    padding-bottom: 1%;
     // border: 1px dashed #990000;
 }
+
+nav ul li {
+    padding-left: 2%;
+    // border: 1px solid teal;
+}
+
+// nav ul li:first-child {
+//     padding-left: 50%;
+// }
