@@ -12,6 +12,8 @@
 @media (max-width: 500px) {
   .btn {
     width: 90%;
+    padding-bottom: 4%;
+    border-radius: 0px;
   }
 }
 .btn:hover {
@@ -275,10 +277,13 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .home .walk {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 3%;
+    padding-left: 3%;
   }
 }
 .home .walk .walk-text {
@@ -301,10 +306,12 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
-    align-self: flex-start;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 3%;
   }
 }
-.home .walk .walk-img img {
+.home .walk img {
   width: 100%;
   height: auto;
   border-radius: 10px;
